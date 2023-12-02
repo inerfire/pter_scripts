@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Pter game Uploady
 // @namespace    https://pterclub.com/forums.php?action=viewtopic&topicid=3391
-// @version      1.2.3
+// @version      1.2.5
 // @description  Game Uploady for Pterclub
 // @author       BbLaCk
 // @credits      NeutronNoir, ZeDoCaixao
@@ -227,10 +227,12 @@ async function steam_form(response) {
     var year = date.split("年").shift().trim();
     var store = 'https://store.steampowered.com/app/' + steamid;
     var genres = [];
-    gameInfo.genres.forEach(function (genre) {
-        var tag = genre.description.toLowerCase().replace(/ /g, ".");
-        genres.push(tag);
-    });
+    if (gameInfo.hasOwnProperty('genres')) {
+          gameInfo.genres.forEach(function (genre) {
+              var tag = genre.description.toLowerCase().replace(/ /g, ".");
+              genres.push(tag);
+          });
+        }
     genres = genres.join("," );
     if (about === '') { about = gameInfo.detailed_description; }
     about = "[center][b][u]关于游戏[/u][/b][/center]\n" +`[b]发行日期[/b]：${date}\n\n[b]商店链接[/b]：${store}\n\n[b]游戏标签[/b]：${genres}\n\n` + html2bb(about).trim();
