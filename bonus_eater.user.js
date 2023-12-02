@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Pter Bonus Eater
 // @namespace    https://pterclub.com/forums.php?action=viewtopic&topicid=3391
-// @version      0.0.2
+// @version      0.0.10
 // @description  consume your bonus immediately
 // @author       BbLaCk
 // @match        https://pterclub.com/mybonus.php*
