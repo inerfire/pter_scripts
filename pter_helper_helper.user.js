@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Pter Helper Helper
 // @namespace    https://pterclub.com/forums.php?action=viewtopic&topicid=3391
-// @version      0.1.9
+// @version      0.1.10
 // @description  Help per-helper moderate torrents
 // @author       BbLaCk
 // @match        https://pterclub.com/details.php?id=*
