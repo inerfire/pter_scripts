@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Pter torrent Helper
 // @namespace    https://pterclub.com/forums.php?action=viewtopic&topicid=3391
-// @version      0.4.7
+// @version      0.4.10
 // @description  torrent description helper for Pterclub
 // @author       BbLaCk
 // @match        https://pterclub.com/uploadgame.php*

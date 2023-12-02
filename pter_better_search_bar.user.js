@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Pter Better Search-bar for games
 // @namespace    https://pterclub.com/forums.php?action=viewtopic&topicid=3391
-// @version      0.1.3
+// @version      0.1.8
 // @description  Game Search-bar for Pterclub
 // @author       BbLaCk
 // @match        https://pterclub.com/torrents.php?cat=409*

@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Pter Internal Uploady
 // @namespace    https://pterclub.com/forums.php?action=viewtopic&topicid=3391
-// @version      0.1.3
+// @version      0.1.6
 // @description  Auto get movie&TV info from douban&imdb for Pterclub
 // @author       BbLaCk
 // @match        https://pterclub.com/PTer.php*

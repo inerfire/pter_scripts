@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PTer mediainfo thingy
 // @namespace    https://pterclub.com/
-// @version      1.2
+// @version      1.4
 // @description  Drag & drop files to generate mediainfo
 // @author       BbLaCk
 // @Credits      Eva

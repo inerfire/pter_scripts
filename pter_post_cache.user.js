@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Pter Post Cache
 // @namespace    https://pterclub.com
-// @version      0.0.3
+// @version      0.0.6
 // @description  猫站论坛缓存
 // @author       BbLaCk
 // @credits      soleil
